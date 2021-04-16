@@ -24,5 +24,5 @@ Yes. A major innovative feature of the **MultiPage Editor** is that the `URL que
 
 This means that:
 
- - the `URL` can be bookmarked at any point and when the browser is later re-pointed at the bookmark, the former state of the app will be precisely reproduced
+ - the `URL` can be bookmarked at any point and when the bookmark is clicked later, the former state of the app will be precisely reproduced
  - the browser's reload button may be pressed at any point without any visible change to the view the app is currently displaying

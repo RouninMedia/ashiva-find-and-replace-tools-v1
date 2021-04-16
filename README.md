@@ -20,7 +20,8 @@ Hence the alternative label: *Single File App*.
 
 ## Anything else?
 
-Yes. A major innovative feature of the **MultiPage Editor** is that the `URL queryString` *always* describes the entire current state of the app.
+Yes. A major innovative feature of the **MultiPage Editor** is that the `URL queryString` *always* describes the *entire current state* of the app.
+
 This means that:
 
  - the `URL` can be bookmarked at any point and when the browser is later re-pointed at the bookmark, the former state of the app will be precisely reproduced

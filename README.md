@@ -18,9 +18,9 @@ Although the app resides in a single document, it does not conform to most conve
  - it doesn't rely solely on client-side rendering (CSR) - in fact, arguably **all** of the rendering is server side
  - the app depends on `PHP` and, consequently, it must be hosted on a remote server - it cannot be run locally at all (and certainly not *offline*)
 
-However, the major advantage of this single-document, remote-hosted app is that it can run both client-side scripts in `JS` ***and*** server-side scripts in `PHP`.
-
 Hence the alternative label: *Single File App*.
+
+The major advantage of this single-document, remote-hosted app is that it can run both client-side scripts in `JS` ***and*** server-side scripts in `PHP`.
 
 ## Anything else?
 

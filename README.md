@@ -26,7 +26,13 @@ Taking any one of the four apps, although the app resides in a single document, 
 
 Hence the alternative label: *Single File App*.
 
-The ****major advantage*** of this single-document, remote-hosted app is that it can run not only client-side scripts in `JS` ***but also*** server-side scripts in `PHP`.
+The ****major advantage*** of this single-document, remote-hosted app is that it can run not only:
+
+ - client-side scripts in `JS`
+
+***but also***
+
+ - server-side scripts in `PHP`.
 
 ## Anything else?
 

@@ -30,7 +30,7 @@ The ***major advantage*** of this single-document, remote-hosted app is that it 
 
  - client-side scripts in `JS`
 
-***but also***
+***but also:***
 
  - server-side scripts in `PHP`
 

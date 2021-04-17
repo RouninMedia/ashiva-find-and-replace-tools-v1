@@ -32,7 +32,7 @@ The ****major advantage*** of this single-document, remote-hosted app is that it
 
 ***but also***
 
- - server-side scripts in `PHP`.
+ - server-side scripts in `PHP`
 
 ## Anything else?
 

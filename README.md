@@ -13,7 +13,7 @@
 
 A **veSPA** app resides in a single document and conforms to *most* (but not *all*) conventional definitions of a **Single Page App (SPA)**.
 
-A **veSPA** parts company with a conventional **SPA** in that:
+**veSPA** parts company with a conventional **SPA** architecture models in that:
 
  - rather than a single page load at the start, the SPA may reload itself repeatedly in response to user interaction
  - rather then being rendered by JS, the SPA's `views` are largely (if not, entirely) determined via CSS

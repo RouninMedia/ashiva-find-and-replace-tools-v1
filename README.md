@@ -39,7 +39,7 @@ This means that:
 
 
 ## What technologies do the Ashiva Find and Replace Tools v1 use?
-Each of the four **veSPA** *Single Page Apps* includes the following technologies:
+The four **veSPA** *Single Page Apps* each include the following technologies:
 
  - `PHP`
  - `HTML5`

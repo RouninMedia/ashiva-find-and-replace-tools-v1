@@ -30,11 +30,11 @@ This last point shines a spotlight on the ***headline advantage*** of the **veSP
 
 ## Anything else about veSPA?
 
-Yes. A key feature of **veSPA**is that the current `URL queryString` *always* describes the **entire current state** of each app.
+Yes. A key feature of **veSPA** is that the current URL `queryString` *always* describes the **entire current state** of each app.
 
 This means that:
 
- - the `URL` can be bookmarked at any point and when the bookmark is clicked later, the former state of the app will be precisely reproduced
+ - the URL can be bookmarked at any point and when the bookmark is clicked later, the former state of the app will be precisely reproduced
  - the browser's reload button may be pressed at any point without any visible change to the view the app is currently displaying
 
 

@@ -1,21 +1,18 @@
 # Ashiva Find and Replace Tools v1
 
-**Ashiva Find and Replace Tools v1** is a suite of standalone tools used to update any site using an **Ashiva WebRig**.
+**Ashiva Find and Replace Tools v1** is a suite of standalone **SPA** tools used to update any site using an **Ashiva WebRig**.
 
  - the **Ashiva MultiPage Editor** is a standalone *Single File App* which finds and replaces text across *multiple Pages*
  - the **Ashiva Scaffold Editor** is a standalone *Single File App* which finds and replaces text across *multiple Scaffolds*
  - the **Ashiva PageManifest Editor** is a standalone *Single File App* which creates, reads, updates and deletes entries on any *PageManifest*
  - the **Ashiva SiteManifest Editor** is a standalone *Single File App* which creates, reads, updates and deletes entries on any *SiteManifest*
 
-## What technologies do the Ashiva Find and Replace Tools v1 use?
-Each of the four *Single File Apps* includes the following technologies:
+## What SPA Framework do the Ashiva Find and Replace Tools v1 use?
 
- - `PHP`
- - `HTML5`
- - `CSS3`
- - `Javascript ES2015+`
- - `JSON`
- - `SVG` (in the favicon and in CSS `background-images`)
+**Ashiva Find and Replace Tools v1** are **SPAs** built using the **Reflective SPA** (or **veSPA**) Model of SPA Architecture.
+
+
+
 
 ## What's with the term *Single File App*?
 Taking any one of the four apps, although the app resides in a single document, it does not conform to most conventional definitions of a **Single Page App (SPA)**.
@@ -42,3 +39,14 @@ This means that:
 
  - the `URL` can be bookmarked at any point and when the bookmark is clicked later, the former state of the app will be precisely reproduced
  - the browser's reload button may be pressed at any point without any visible change to the view the app is currently displaying
+
+
+## What technologies do the Ashiva Find and Replace Tools v1 use?
+Each of the four **veSPA** *Single Page Apps* includes the following technologies:
+
+ - `PHP`
+ - `HTML5`
+ - `CSS3`
+ - `Javascript ES2015+`
+ - `JSON`
+ - `SVG` (in the favicon and in CSS `background-images`)

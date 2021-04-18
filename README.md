@@ -11,22 +11,16 @@
 
 **Ashiva Find and Replace Tools v1** are **SPAs** built using the **Reflective SPA** (or **veSPA**) model of *SPA Architecture*.
 
-A **veSPA** app resides in a single document and conforms to *most*(but not *all*) conventional definitions of a **Single Page App (SPA)**.
+A **veSPA** app resides in a single document and conforms to *most* (but not *all*) conventional definitions of a **Single Page App (SPA)**.
 
+A **veSPA** parts company with a conventional **SPA** in that:
 
+ - rather than a single page load at the start, the SPA may reload itself repeatedly in response to user interaction
+ - rather then being rendered by JS, the SPA's `views` are largely (if not, entirely) determined via CSS
+ - it follows that there is little to zero Client-Side DOM Rendering (`CSR`) - in fact, arguably **all** of the DOM Rendering is Server-Side
+ - the app depends on server-side scripting with filesystem functionality like `PHP` and, consequently, it ***must*** be hosted on a remote server. The SPA cannot be run locally at all (and certainly not *offline*)
 
-
-
-## What's with the term *Single File App*?
-Taking any one of the four apps, although the 
-
- - it doesn't require only a single page load in a web browser (in fact the app repeatedly reloads itself)
- - it doesn't rely solely on client-side rendering (CSR) - in fact, arguably **all** of the rendering is server side
- - the app depends on `PHP` and, consequently, it must be hosted on a remote server - it cannot be run locally at all (and certainly not *offline*)
-
-Hence the alternative label: *Single File App*.
-
-The ***major advantage*** of this single-document, remote-hosted app is that it can run not only:
+The ***major advantage*** of the **veSPA** model is that it enables the **SPA** to run, easily, not only:
 
  - client-side scripts in `JS`
 

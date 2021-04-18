@@ -11,11 +11,14 @@
 
 **Ashiva Find and Replace Tools v1** are **SPAs** built using the **Reflective SPA** (or **veSPA**) model of *SPA Architecture*.
 
+A **veSPA** app resides in a single document and conforms to *most*(but not *all*) conventional definitions of a **Single Page App (SPA)**.
+
+
 
 
 
 ## What's with the term *Single File App*?
-Taking any one of the four apps, although the app resides in a single document, it does not conform to most conventional definitions of a **Single Page App (SPA)**.
+Taking any one of the four apps, although the 
 
  - it doesn't require only a single page load in a web browser (in fact the app repeatedly reloads itself)
  - it doesn't rely solely on client-side rendering (CSR) - in fact, arguably **all** of the rendering is server side

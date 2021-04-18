@@ -18,9 +18,9 @@ A **veSPA** app resides in a single document and conforms to *most* (but not *al
  - rather than a single page load at the start, **veSPA** may reload itself repeatedly in response to user interaction
  - rather then being rendered by JS, **veSPA's** `views` are largely (if not, entirely) determined via CSS
  - it follows that **veSPA** requires little to zero Client-Side DOM Rendering (`CSR`) - in fact, arguably **all** of the DOM Rendering is Server-Side
- - **veSPA** can take advantage of server-side scripting with filesystem functionality like `PHP`. If it does, it ***must*** be hosted on a remote server. Any **veSPA** which includes server-side CRUD operations cannot be run "locally" - and certainly not *offline*
+ - **veSPA** *can* take advantage of server-side scripting with filesystem functionality like `PHP`. If and when it does, it ***must*** be hosted on a remote server. Any **veSPA** which includes server-side CRUD operations *cannot* be run "locally" - and certainly not offline
 
-The ***headline advantage*** of the **veSPA** model is that, when needed, it can run, easily, not only:
+This last point shines a spotlight on the ***headline advantage*** of the **veSPA** model, which is that, when needed, **veSPA** can run, easily, not only:
 
  - client-side scripts in `JS`
 

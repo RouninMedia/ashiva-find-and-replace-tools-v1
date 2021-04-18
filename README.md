@@ -9,7 +9,7 @@
 
 ## What SPA Framework do the Ashiva Find and Replace Tools v1 use?
 
-**Ashiva Find and Replace Tools v1** are **SPAs** built using the **Reflective SPA** (or **veSPA**) Model of SPA Architecture.
+**Ashiva Find and Replace Tools v1** are **SPAs** built using the **Reflective SPA** (or **veSPA**) model of *SPA Architecture*.
 
 
 

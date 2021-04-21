@@ -422,6 +422,10 @@ h2 {
   transform: translateY(166px);
 }
 
+.highlighted {
+  color: rgb(255, 255, 127);
+}
+
 .caseControl {
   position: absolute;
   top: 14px;
@@ -632,8 +636,8 @@ data-pages-untargeted="'.$Pages_Untargeted.'">
 <h2 class="multiPageEditorHeading --remove">You can remove <span class="multiPageEditorSlot --find">'.str_replace('␀', '🚫', $Find_Phrase).'</span> from any of these pages<span class="listening">...</span><span class="searching">:</span></h2>
 <h2 class="multiPageEditorHeading --replace">You can replace <span class="multiPageEditorSlot --find">'.str_replace('␀', '🚫', $Find_Phrase).'</span> with <span class="multiPageEditorSlot --replace">'.str_replace('␀', '🚫', $Replace_Phrase).'</span> on any of these pages<span class="listening">...</span><span class="searching">:</span></h2>
 <h2 class="multiPageEditorNotFound">You cannot find <span class="multiPageEditorSlot --find">'.str_replace('␀', '🚫', $Find_Phrase).'</span> on any page.</h2>
-<h2 class="multiPageEditorListConfirmed --remove">Remove <span class="multiPageEditorSlot --find">'.str_replace('␀', '🚫', $Find_Phrase).'</span> from the pages highlighted:</h2>
-<h2 class="multiPageEditorListConfirmed --replace">Replace <span class="multiPageEditorSlot --find">'.str_replace('␀', '🚫', $Find_Phrase).'</span> with <span class="multiPageEditorSlot --replace">'.str_replace('␀', '🚫', $Replace_Phrase).'</span> on the pages highlighted:</h2>
+<h2 class="multiPageEditorListConfirmed --remove">Remove <span class="multiPageEditorSlot --find">'.str_replace('␀', '🚫', $Find_Phrase).'</span> from the <span class="highlighted">highlighted pages</span>:</h2>
+<h2 class="multiPageEditorListConfirmed --replace">Replace <span class="multiPageEditorSlot --find">'.str_replace('␀', '🚫', $Find_Phrase).'</span> with <span class="multiPageEditorSlot --replace">'.str_replace('␀', '🚫', $Replace_Phrase).'</span> on the <span class="highlighted">highlighted pages</span>:</h2>
 
 <div class="multiPageEditorButtonGroup --list">
 <button type="button" class="multiPageEditorButton --list --checkAll">Check all</button>
